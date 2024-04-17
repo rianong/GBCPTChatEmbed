@@ -45,7 +45,7 @@ export const Badge = (props: Props) => {
       }}
     >
       All rights reserved. 2024 © George Brown College &nbsp;&nbsp;|&nbsp;&nbsp;Developed by Studio Nomada
-      <a
+      {/* <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -54,8 +54,8 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
-      </a>
+        <span> Flowise</span> */}
+      {/* </a> */}
     </span>
   );
 };
