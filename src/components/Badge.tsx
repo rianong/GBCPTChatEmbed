@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      All rights reserved. © 2024 &nbsp;&nbsp; | &nbsp;&nbsp; George Brown College
+      All rights reserved. © 2024 George Brown College &nbsp;&nbsp; | &nbsp;&nbsp; Developed by Studio Nomada
     </span>
   );
 };
