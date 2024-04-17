@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      All rights reserved. 2024 © George Brown College &nbsp;&nbsp;|&nbsp;&nbsp;Developed by Studio Nomada
       <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
