@@ -45,18 +45,6 @@ export const Badge = (props: Props) => {
       }}
     >
       All rights reserved. © 2024 &nbsp;&nbsp; | &nbsp;&nbsp; George Brown College
-      {/* Powered by
-      <a
-        ref={liteBadge}
-        href={'https://flowiseai.com'}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="lite-badge"
-        id="lite-badge"
-        style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      >
-        <span> Flowise</span>
-      </a> */}
     </span>
   );
 };
